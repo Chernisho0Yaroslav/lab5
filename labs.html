@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>ГаражМонтаж Энтерпрайз</title>
+		<link rel="stylesheet" type="text/css" href="normalize.css">
+		<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body>
+		<header id="header-site">
+			<div class="header-left">
+				<img href="" src="40b0d7adcf9ca24575adfc7a71b3ddca.jpg">
+			</div>
+			<div class="header-center">
+				<h1>ООО "ГаражМонтаж Энтерпрайз"</h1>
+				<h2>Отдел кадров</h2>
+			</div>
+			<div class="header-right">	
+				<img src="user-2517433_1280.jpg">
+				<p>Кадрова О.Н.</p>		
+			</div>	
+		</header>
+		<div id="main-form">
+			<div class="menu-class">
+				<div class="search-employee">
+					<a href="labs.html" title="Поиск сотрудников">Поиск</a>
+				</div>
+				<div class="add-employee">
+					<a href="add.html" title="Добавить сотрудника">Добавить</a>
+				</div>
+				<div class="third">
+					<a href="third.html">Third</a>
+				</div>
+			</div>
+
+			<div id="search-form">
+				<form action="lb.sql">
+					<input type="search" id="search-form-buttom" name="query" placeholder="Поиск">
+   				    <button id="button-search" type="submit" href="labs.html">Cancel</button> 
+   				    <div id="radio_buttom">
+   				    	<legend>Искать в: </legend>
+   				    	<ul>
+   				    		<li><p><label><input type="radio" name="name" value="full_name"> ФИО</label></p></li>
+   				    		<li><p><label><input type="radio" name="name" value="department"> Названии отдела</label></p></li>
+   				    	</ul>
+   				    </div>
+				</form>
+			</div>
+
+			<div id="inform">
+				<div class="worker">
+					<div class="name_department">
+						<p class="name_worker">Зыбин Климент Соломонович</p>
+						<p class="department">Министерство развлечений</p>
+					</div>
+					<button class="dop_inform" title="Директор">
+						<i class="fa fa-exclamation-circle"></i>
+					</button>
+				</div>
+				<div class="worker">
+					<div class="name_department">
+						<p class="name_worker">Корецкий Флавиан Себастьянович</p>
+						<p class="department">Министерство Шуток</p>
+					</div>
+					<button class="dop_inform" title="Менеджер">
+						<i class="fa fa-exclamation-circle"></i>
+					</button>
+				</div>
+				<div class="worker">
+					<div class="name_department">
+						<p class="name_worker">Всеволожский Абакум Кассианович</p>
+						<p class="department">Министерство развлечений</p>
+					</div>
+					<button class="dop_inform" title="Юрист">
+						<i class="fa fa-exclamation-circle"></i>
+					</button>
+				</div>
+				<div class="worker">
+					<div class="name_department">
+						<p class="name_worker">Гриневецкий Сильван Эразмович</p>
+						<p class="department">Министерство развлечений</p>
+					</div>
+					<button class="dop_inform" title="Бухгалтер">
+						<i class="fa fa-exclamation-circle"></i>
+					</button>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>	
